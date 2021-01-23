@@ -12,7 +12,7 @@ function getUserName() {
   return localStorage.getItem(USERNAME);
 }
 function hideUserForm() {
-  console.log("user-form hide");
+  // console.log("user-form hide");
   jsUserForm.classList.add("user-form__hide");
   //   console.dir(jsUserForm);
 }

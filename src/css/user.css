@@ -1,0 +1,35 @@
+.user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+
+/* .user-form__input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+.user-form__input,
+.user-form__input::placeholder {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.user-form__input:focus {
+  outline: none;
+} */
+
+.user-form__hide {
+  display: none;
+}
+
+.user-container__title--hide {
+  display: none;
+}
+.user-container__title {
+  font-size: 35px;
+  font-weight: 600;
+}
