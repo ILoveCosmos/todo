@@ -1,55 +1,13 @@
 @import "reset.css";
 @import "clock.css";
 @import "user.css";
+@import "todo.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
 
-.todo-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.todo-form {
-  margin-bottom: 20px;
-}
-
-.todo-lists__item,
-.todo-lists__item li {
-  display: flex;
-}
-.todo-lists__item {
-  flex-direction: column;
-}
-.todo-lists__item li {
-  justify-content: center;
-  align-items: center;
-}
-
-.todo-lists__item li span:first-child {
-  width: 20%;
-  text-align: center;
-}
-.todo-lists__item li span:last-child {
-  width: 80%;
-  text-align: center;
-}
-
-.todo-lists__item li span button,
-.todo-lists__item li span {
-  font-size: 35px;
-  font-weight: 600;
-}
-.todo-lists__item li span button {
-  background-color: transparent;
-  border: none;
-}
-
-.todo-lists__item li span button:active {
-  transform: scale(0.9);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
