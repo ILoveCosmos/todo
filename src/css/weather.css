@@ -1,0 +1,11 @@
+.cityweather-container {
+  position: fixed;
+  top: 3%;
+  right: 3%;
+}
+.cityweather-container__info {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+  color: white;
+}

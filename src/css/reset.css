@@ -132,6 +132,10 @@ input,
 input::placeholder {
   font-size: 35px;
   font-weight: 600;
+  background-color: transparent;
+  color: white;
+  padding-bottom: 3px;
+  border-bottom: 1px solid white;
 }
 input:focus {
   outline: none;

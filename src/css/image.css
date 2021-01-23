@@ -1,0 +1,11 @@
+.photograpper-container {
+  position: fixed;
+  bottom: 3%;
+  left: 3%;
+}
+
+.phtograpper__title {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}

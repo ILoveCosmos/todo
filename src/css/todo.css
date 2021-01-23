@@ -20,6 +20,7 @@
 .todo-lists__item li {
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .todo-lists__item li span:first-child {
@@ -35,6 +36,7 @@
 .todo-lists__item li span {
   font-size: 35px;
   font-weight: 600;
+  color: white;
 }
 .todo-lists__item li span button {
   background-color: transparent;
