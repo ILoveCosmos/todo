@@ -37,7 +37,7 @@ function addTodoItem(item) {
   delBtn.innerText = "X";
   span.innerText = item.todoText;
 
-  delBtn.addEventListener("click", handleDelBtnClick);
+  delBtnContainer.addEventListener("click", handleDelBtnClick);
   delBtnContainer.appendChild(delBtn);
   li.appendChild(delBtnContainer);
   li.appendChild(span);
